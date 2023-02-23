@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'guest/index'
+  get 'guest/show'
+  get 'guest/delete'
+  get 'guest/update'
+  get 'index/show'
+  get 'index/delete'
+  get 'index/new'
+  get 'index/update'
   get 'user/index'
   get 'user/create'
   get 'user/show'
